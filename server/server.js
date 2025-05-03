@@ -29,6 +29,6 @@ app.get("/",(req,res)=>{
     res.send("hello")
 });
 
-app.listen(process.env.PORT, ()=>{
+app.listen(process.env.PORT || PORT, ()=>{
     console.log("running on 3000");
 });

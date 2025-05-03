@@ -7,6 +7,8 @@ open terminal
 cd sever
 npm install
 
+add .env file with port number and your mongodb url so it will run smoothly
+
 
 ## To Run server
 node server.js
